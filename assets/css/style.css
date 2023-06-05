@@ -1,10 +1,29 @@
 /********** Template CSS **********/
-:root {
+ /* @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Mulish:wght@300;400;500&display=swap'); */
+
+ @font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+
+     font-family: 'Rubik';
+    /* font-size: 18px; */
+    src: url('./fonts/Rubik/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+body  {
+    font-family: 'Rubik', sans-serif;
+    /* font-size: 50px; */
+}
+ :root {
     --primary: #355EFC;
     --secondary: #E93C05;
     --tertiary: #555555;
     --light: #DFE4FD;
     --dark: #011A41;
+    font-family: 'Poppins', sans-serif;
 }
 
 .back-to-top {
@@ -21,6 +40,8 @@ h2,
 .h2,
 .fw-bold {
     font-weight: 700 !important;
+    font-family: 'Poppins', sans-serif !important;
+
 }
 
 h3,
@@ -98,6 +119,8 @@ h6,
 }
 
 .top-bar {
+    color: #DFE4FD;
+    background: #054ab9;
     height: 45px;
     border-bottom: 1px solid rgba(53, 94, 252, .07);
 }
