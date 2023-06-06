@@ -110,6 +110,12 @@
         }
     });
 
+    document.querySelector('.scroll-down').addEventListener('click', function() {
+        window.scrollBy({
+         top: 600,
+         behavior: 'smooth'
+       });
+     });
     
 })(jQuery);
 
