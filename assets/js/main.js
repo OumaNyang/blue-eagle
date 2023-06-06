@@ -116,6 +116,25 @@
          behavior: 'smooth'
        });
      });
+     function typeWriter(element, text, speed) {
+        let i = 0;
+        function type() {
+          if (i < text.length) {
+            element.textContent += text.charAt(i);
+            i++;
+            setTimeout(type, speed);
+          }
+        }
+        type();
+      }
+    
+      const caption1 = document.querySelector(".carousel-caption .display-5");
+      const caption2 = document.querySelector(".carousel-caption .display-4");
+      const text1 = "Empowering Your Business with Cutting-edge IT Solutions";
+      const text2 = "Simplifying Complexities with Our Tailored Solutions";
+    
+      typeWriter(caption1, text1, 100);  
+      typeWriter(caption2, text2, 100);  
     
 })(jQuery);
 
