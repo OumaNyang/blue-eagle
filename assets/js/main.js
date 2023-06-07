@@ -128,13 +128,22 @@
         type();
       }
     
-      const caption1 = document.querySelector(".carousel-caption .display-5");
-      const caption2 = document.querySelector(".carousel-caption .display-4");
-      const text1 = "Empowering Your Business with Cutting-edge IT Solutions";
-      const text2 = "Simplifying Complexities with Our Tailored Solutions";
+      const caption1 = document.querySelector("#carousel1");
+      const caption2 = document.querySelector("#carousel2");
+      const caption3 = document.querySelector("#carousel3");
+      const caption4 = document.querySelector("#carousel4");
+
+      const text1 = "Transforming Businesses with Innovative IT Solutions";
+      const text2 = "Enhancing Healthcare with State-of-the-Art Medical Equipment";
+      const text3 = "Solving Challenges through Customized and Simplified Solutions";
+      const text4 =  "Creating Productive Workspaces with Exceptional Office Furniture";
+
     
       typeWriter(caption1, text1, 100);  
       typeWriter(caption2, text2, 100);  
+      typeWriter(caption3, text3, 100);
+      typeWriter(caption4, text4, 100);  
+  
     
 })(jQuery);
 
