@@ -371,20 +371,28 @@ font-size:30px
     }
 }
 
-.page-header {
-    padding-top: 12rem;
+.page-header { 
+    padding-top: 12rem; 
     padding-bottom: 6rem;
-    background: url(../img/header.jpg) top left no-repeat;
+    background: url(../img/corousel/fhyghjybvghj.jpg) top left no-repeat;
     background-size: cover;
+ 
+}
+.page-header h1{
+    color: #f0f7ff !important;
+
 }
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
     font-weight: 500;
+    color: #f0f7ff !important;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--tertiary);
+    /* color: var(--tertiary); */
+    color: #f0f7ff !important;
+
 }
 
 
